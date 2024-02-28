@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "trixie-dgje",
+  "private_key_id": "41f0c4edc6a5fbda4c97cd66d3c2ee34cbfc9578",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0Wjgiumy96wzs\n+o66TZMYQV1TnhKInZV2radqYkBmrrWovNX2eNG3ElIpeq3wPWGUnwBEWUOLznyE\n7izvszd1WDZYZtUGLKqzIFRDpblWXvvd5poKj2b1aTWC73P00EljeauCg3VX7Jpw\nviK9tFqNj+yZTn0lurWkZzFyD4WBqZsY26RulptSgQTyBKlY6HgO6V2D1g4E9Z6c\nyR9gJKqvpayjIpOc40QSOab2/0ErRtBJ89yPDq6UUCUUjFO3Ceqfu5Vzi6ohUvqY\nFg0ly1Eaozkx0Znw381sC5O9o9IthE0y96bOyiIjgLSba10S1z+RlanAJ728yYgW\njDOqvVwBAgMBAAECggEAAfG5CjLNSkzW4lUfJcYBUHEf8u9QztU4D8P2epCdlh3L\nCosimVobFKinZxgR+PWIcEQ4igQWVNMAh6RTqq/ZaLPvPgu5vyvLGUw/bE1EjrhO\nacl7HqMGHp4oPAWdz+VQ7TgaD7mgEbcUwSNjl3zyvvTuvYZZlgcJv0B3iX2+WDP5\nvFda81eS6KC7TZ+whmrRf/6o+SuR2f3leY07rSqUAoNT043xN+TvpH37jDjKcYsu\nrhFZm8oueNATOIrgwo1p0cPA+m2kbIHWqcshS5m96sp6KwK6W9cDx0q4RlrvEZPS\nSCToCMBgPqYCGPLiEDn3GEchnreThd5DecOFVmKWuQKBgQDbCs3w1vUT1qIdTE8Y\nWmVXATDAb4ImkDzMBsRvG4GR3zBpYNjpzoq06zqHhfBemYOhbIGIwknmL4VpEBVc\n4LfdLbOrhLQrwZ0ECC/UIVwi90T3lJt/KoBESSGc1O0jNxoIzzwyYc4LEcBN6Avz\nDdEI6cWGM9YUC1jDptZ9bnQ//QKBgQDSyESsRhftOyP1G0tYEQx9VtuXhkVm+xBX\nlk4psRGMu66SeaFAyKxuBfo3druqdxWJXJ7VG6fhlD4hbsdL1VoSF2q/Snj5VmA0\nqEBqZPyr3JEuafoAet5/D4dhmAPkOU719A90jLkOi5cvdTyfyfNvozOkDlTWSEFb\nKfVy316hVQKBgQCbEV8SLVt7G+vQygEEwJoVqiYVVdvR6TLhTbkq31IvLs5bC9EE\nVNAlnJHm949fqVZipSpe4wzmBKZx5oz5H62Ky5vyxRO4Fm1OOW2Cw8syhdMxYudi\nc3gy34MIQEVRNOUdb3iyQkNX2s1FWg17mEBwCu9nPrNDpXTFrgsS6WsrEQKBgQC9\nn2kYSl6QDtpEUO+xJHVF9PPMFwEsqcSD5zYeD6uoHdfo8f79Vwq4WCxH5UrjCgqX\n7nj9YsnfCAv068HjGObUy7g+qvK17NzTwmFg1cTxn5YEWVaNQ/wR9phmVel6UYwV\nfCDDSy3YRgAWs7N8VKPp1LpKZpIvzATvzImBdC2fmQKBgFE8LOpA8lZ2CiGVlbTO\nJaQWmlVOVmSbfb/xg3ehrmA5EZ337EWoZFjALj7ASI+etvqd+f0h4Hb05E52C4sF\n7TgCVUZTbKJpNOjgAZAHHl2BoCRw2BhCSszaS52X+5cEMECdI1xeCo7yXpIgzkEK\nPVk1+xwVCH45tZIZE4qxd8yX\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow@trixie-dgje.iam.gserviceaccount.com",
+  "client_id": "109177199672149931471",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow%40trixie-dgje.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

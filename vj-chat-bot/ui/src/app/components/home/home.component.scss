@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+    overflow-y: hidden;
+    max-height: 100vh;
+    .toolbar {
+      position: fixed;
+      width: 100%;
+      height: 6rem;
+      background-color: var(--toolbar-bg);
+      display: flex;
+      align-items: center;
+      h2 {
+        color: white;
+        font-size: 2rem;
+        margin: 0;
+      }
+    }
+    .chat-container {
+      position: relative;
+      margin-top: 10rem;
+      bottom: 4rem;
+      display: flex;
+      flex-direction: column;
+      overflow-y: scroll;
+      flex-grow: 1;
+      .chat-list-wrap {
+        flex-grow: 1;
+        display: flex;
+        align-items: end;
+        .chat-list {
+          list-style-type: none;
+          width: 100%;
+          max-width: 100%;
+          li {
+            display: flex;
+            div {
+              font-size: var(--chat-font-size);
+              line-height: 2rem;
+              border-radius: 0.5rem;
+              margin-top: 0.5rem;
+              padding: 1em;
+              display: inline;
+              max-width: 70%;
+            }
+          }
+        }
+      }
+    }
+    .chat-input {
+      width: 100%;
+      height: 4rem;
+      z-index: 100;
+      position: fixed;
+      bottom: -1rem;
+      box-shadow: 0 10px 10px 20px rgba($color: #000000, $alpha: 0.2);
+      mat-form-field {
+        width: 100%;
+      }
+    }
+  }
+  
+  ::ng-deep .search-bar {
+    .mdc-line-ripple {
+      display: none;
+    }
+    .mat-mdc-text-field-wrapper {
+      padding: 0 2rem;
+    }
+  }
+  
+  .mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: none;
+  }
+
+  .chat-type-user {
+    background-color: #dddddd;
+    border: solid 1px black;
+  }
+  
+  .chat-type-bot {
+    background-color: #dddddd;
+    border: solid 1px black;
+  }
+  
+  .chat-type-user-li {
+    justify-content: flex-end;
+  }
+  
+  .chat-type-bot-li {
+    justify-content: flex-start;
+  }
+  

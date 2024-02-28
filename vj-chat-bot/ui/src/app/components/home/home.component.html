@@ -1,0 +1,36 @@
+
+<div class="container">
+    <div class="toolbar">
+      <h2 class="default-padding">VJCET Inquiry Bot</h2>
+    </div>
+    <div class="chat-container">
+      <div class="chat-list-wrap default-padding">
+        <ul class="chat-list">
+          <li
+            id="id-{{ message.time }}"
+            *ngFor="let message of messages"
+            [ngClass]="message.isUser ? 'chat-type-user-li' : 'chat-type-bot-li'"
+          >
+            <div
+              class="chat-message"
+              [ngClass]="message.isUser ? 'chat-type-user' : 'chat-type-bot'"
+            >
+              {{ message.message }}
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="chat-input">
+      <mat-progress-bar mode="indeterminate" *ngIf="isProgressShown"></mat-progress-bar>
+      <mat-form-field class="search-bar" [subscriptSizing]="'dynamic'">
+        <input
+          matInput
+          [formControl]="userInput"
+          placeholder="Type in your message"
+          (keyup.enter)="addUserMessage()"
+        />
+      </mat-form-field>
+    </div>
+  </div>
+  

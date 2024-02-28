@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ui",
+    "\\ui\\src",
+    "\\ui\\src\\app",
+    "\\ui\\src\\app\\components",
+    "\\ui\\src\\app\\components\\home",
+    "\\ui\\src\\app\\components\\load-screen"
+  ],
+  "SelectedNode": "\\ui\\src\\app\\components\\load-screen\\load-screen.component.scss",
+  "PreviewInSolutionExplorer": false
+}
